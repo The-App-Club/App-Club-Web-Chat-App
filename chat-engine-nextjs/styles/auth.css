@@ -1,0 +1,64 @@
+.background {
+  background: linear-gradient(150deg, #d9dbe2, #808aac 100%, #282d39 0);
+  height: calc(100vh - 200px);
+  left: 0px;
+  padding: 100px;
+  position: absolute;
+  top: 0px;
+  width: calc(100vw - 200px);
+}
+
+.auth-container {
+  background-color: #4a5162;
+  border-radius: 24px;
+  box-shadow: 0 2px 15px rgb(0 0 0 / 68%);
+  height: 292px;
+  left: calc(50vw - 240px - 100px);
+  position: relative;
+  top: calc(50vh - 144px - 100px);
+  width: 420px;
+}
+
+.auth-form {
+  margin-left: 20%;
+  padding-top: 33px;
+  width: 60%;
+}
+
+.auth-title {
+  color: white;
+  font-size: 26px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.text-input {
+  background-color: #4a5162;
+  border-bottom: 2px solid #726dfe;
+  border-width: 0px;
+  color: white;
+  margin-bottom: 24px;
+  outline: none;
+  padding: 8px;
+  width: 100%;
+}
+
+.text-input::placeholder {
+  color: hsla(0, 0%, 100%, 0.568);
+}
+
+.submit-button {
+  background-color: #726dfe;
+  border-radius: 4px;
+  border-width: 0px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  padding: 14px;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #938ffe;
+}
